@@ -1,0 +1,24 @@
+.form-container {
+    display: flex;
+    justify-content: center;
+    padding-right: 5%;
+}
+
+.form-tag {
+    min-width: 40%;
+    padding: 0;
+    margin: 0;
+}
+
+.text-decor {
+    text-decoration: line-through;
+}
+
+.icon {
+    color: #b71a1a;
+    padding-left: 15px;
+}
+
+.table-container {
+    padding: 2%;
+}
