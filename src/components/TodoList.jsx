@@ -32,7 +32,7 @@ const TodoList = ({ todos }) => {
 
     return (
         <>
-            <Table dataSource={todos} pagination={false} className='table-container'>
+            <Table dataSource={todos} pagination={false} className='table-container' rowKey="id">
                 <Column
                     title="Mark"
                     dataIndex="id"
